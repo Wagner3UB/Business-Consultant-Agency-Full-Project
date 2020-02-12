@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap');
+* {
+    font-family: 'Courier Prime', monospace;
+    color: #3e4353;
+    font-size: 18;
+    font-weight: 400;
+}
+
+/*font-family: 'Courier Prime', monospace;*/
+
+body{
+    background-color: #e0e2ec;
+    overflow-x: hidden;
+}
+#viewport{
+    width: 100vw;
+    overflow: hidden;
+}
+/*-----------------MENU-----------------*/
+/*-----------------LOGO-----------------*/
+#viewport #top-menu{
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+#viewport #top-menu #logo{
+    display: block;
+    width: 100%;
+}
+#viewport #top-menu #icons-top{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    z-index: 2;
+}
+/*------------------END LOGO----------------*/
+#viewport #top-menu #menu-regular{
+    width: 50%;
+    margin-left: 40%;
+    overflow: hidden;
+
+}
+#viewport #top-menu #menu-regular li{
+    width: 25%;
+    float: left;
+    text-align: right;
+
+}
+#viewport #top-menu #menu-regular li a:link, #viewport #top-menu #menu-regular li a:visited{
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3f4354;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: fit-content;
+    padding: 7%;
+}
+#viewport #top-menu #menu-regular li a:hover{
+    position: relative;
+    z-index: 1;
+}
+#viewport #top-menu hr{
+    background-color: #b3b7c5;
+    width: 70px;
+    height: 5px;
+    border: none;
+    position: absolute;
+    bottom: 25%;
+    right: 10px;
+    z-index: 5;
+    
+}
+#viewport #top-menu #menu-regular li a:hover hr{
+    background-color: #702222;
+}
+#viewport #top-menu #sandwish{
+    position: absolute;
+    top: -100px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+#viewport #top-menu #sandwish #menu-sandwish{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+#viewport #top-menu #sandwish #menu-sandwish li{
+    color: #d3d6e3;
+    margin-top: 5px;
+    display: block;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #3e4353;
+}
+#viewport #top-menu #sandwish #menu-sandwish a:link, #viewport #top-menu #sandwish #menu-sandwish a:visited{
+    color: #d3d6e3;
+    text-decoration: none;
+}
+#viewport #top-menu #sandwish #menu-sandwish li:hover{
+    background-color: #702222;
+
+}
+#viewport #top-menu #sandwish #img-sandwish{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+
+
+/*--------------END MENU---------------------*/
+/*--------------TOP BANNER-------------------*/
+#viewport #top-banner{
+    width: 100%;
+    margin-top: -60px;
+    position: relative;
+}
+#viewport #top-banner img{
+    display: block;
+    width: 100%;
+}
+#viewport #top-banner h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #702222;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    box-shadow: 0px 0px 28px 23px #d3d6e3;
+}
+/*--------------END BANNER------------------*/
+/*--------------TEAM----------------------*/
+#chi-siamo {
+    background-image: url('../img/bg-team.png');
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#chi-siamo #team{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+}
+#chi-siamo #team h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #3f4354;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#chi-siamo #team hr{
+    display: block;
+    width: 50px;
+    height: 11px;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    border-color: #702222;
+    position: absolute;
+    top: 40px;
+    left: 85px;
+}
+#chi-siamo #team p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+.black-strong{
+    font-weight: 700;
+}
+.red-strong{
+    font-weight: 700;
+    color: #702222;
+}
+/*--------------END TEAM---------------*/
+/*--------------PARTNERS---------------*/
+#chi-siamo #partners{
+    background-color: rgba(151, 155, 172, 0.8);
+    width: 70%;
+    height: 720px;
+    margin: 0 auto 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#chi-siamo #partners h1{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+#chi-siamo #partners hr{
+    display: block;
+    width: 50px;
+    height: 11px;
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    border-color: #702222;
+    position: absolute;
+    top: 26px;
+    left: 71px;
+}
+#chi-siamo #partners div img{
+    display: block;
+    margin: auto;
+}
+#chi-siamo #partners div #text-person{
+    display: block;
+    width: 100%;
+    margin: 20px auto 50px;
+    background-color: #fff;
+}
+#chi-siamo #partners div h2{
+    font-weight: 700;
+    color: #702222;
+    position: absolute;
+    bottom: -55px;
+    right: 15%;
+    margin-bottom: 30px;
+}
+#chi-siamo #partners div h2 strong{
+    font-size: 30px;
+    position: absolute;
+    bottom: -9px;
+    right: 105%;
+    color: #702222;
+
+}
+#chi-siamo #partners #person1, #chi-siamo #partners #person2, #chi-siamo #partners #person3, #chi-siamo #partners #person4{
+    float: left;
+    width: 25%;
+}
+#chi-siamo #partners #person1 #person1-1, #chi-siamo #partners #person2 #person2-1, #chi-siamo #partners #person3 #person3-1, #chi-siamo #partners #person4 #person4-1{
+    width: 248px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*----TEAM HOVER----*/
+#person1:hover, #person2:hover, #person3:hover, #person4:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.02);
+}
+
+#chi-siamo #partners .hover-text{
+    position: absolute;
+    z-index: 2;
+    top: -3000px;
+    display: block;
+    width: 575px;
+    box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.5);
+    background-color: #d3d6e3;
+}
+
+#chi-siamo #partners .hover-text p{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px; 
+
+}
+
+/*----PERSON 1 e 2----*/
+#chi-siamo #partners #person1:hover .hover-text, #chi-siamo #partners #person2:hover .hover-text{
+    top: 350px;
+    left: 0;
+    z-index: 6;
+}
+/*----END PERSON 1 e 2----*/
+
+/*----PERSON 3 e 4----*/
+#chi-siamo #partners #person3:hover .hover-text, #chi-siamo #partners #person4:hover .hover-text{
+    top: 350px;
+    right: 0;
+    z-index: 3;
+}
+/*----END PERSON 3 e 4----*/
+
+/*-------END CHI SIAMO--------*/
+/*-------SERVIZI----------*/
+#servizi{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+}
+#servizi #h1-servizi{
+    font-size: 30px;
+    font-weight: 700;
+    color: #3f4354;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#servizi #hr-servizi{
+    display: block;
+    width: 52px;
+    height: 11px;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    border-color: #702222;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+#servizi #tax-form, #servizi #anual-report, #servizi #bankruptcy{
+    float: left;
+    width: 33.33%;
+}
+#servizi img{
+    display: block;
+    margin: 0 auto 20px;
+}
+#servizi img:hover{
+    transition: all 0.8s linear;
+    transform: scale(1.15);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+#servizi .h1-servizi{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+#servizi .hr-servizi{
+    background-color: #702222;
+    border: none;
+    width: 15%;
+    height: 5px;
+    margin: 20px auto;
+}
+#sevizi ul{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#servizi ul li{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+#servizi ul li strong{
+    font-weight: 700;
+    font-size: 30px;
+    color: #702222;
+}
+/*---- END SERVIZI----*/
+
+/*---- PREVENTIVO----*/
+#preventivo{
+    clear: both;
+    width: 100%;
+    padding-top: 60px;
+    background-image: url('../img/preventivo.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+#preventivo #box-preventivo{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(135, 140, 159, 0.40);
+    z-index: 1;
+    height: 400px;
+}
+#preventivo #box-preventivo h1{
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3f4354;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#preventivo #box-preventivo hr{
+    display: block;
+    width: 50px;
+    height: 11px;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    border-color: #702222;
+    position: absolute;
+    z-index: 2;
+    top: -30px;
+    left: 135px;
+}
+#preventivo #box-preventivo #box-testo-preventivo{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#preventivo #box-preventivo #box-testo-preventivo p{
+    padding-bottom: 10px;
+}
+#preventivo #box-preventivo #box-testo-preventivo p:last-child{
+    font-weight: 700;
+
+}
+#preventivo #box-preventivo #box-testo-preventivo ul{
+    padding-bottom: 5px;
+
+}
+#preventivo #box-preventivo #box-testo-preventivo ul li{
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: #702222;
+    font-weight: 700;
+}
+
+#preventivo #box-preventivo form{
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1440px){
+    #viewport #top-banner h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    #viewport #top-banner h1{
+        font-size: 26px;
+    }
+
+}
+@media only screen and (max-width: 1170px){
+    #viewport #top-menu #menu-regular li a:link, #viewport #top-menu #menu-regular li a:visited{
+        font-size: 18px;
+    }
+    #viewport #top-menu hr{
+        width: 50px;
+        height: 4px;
+    }
+    #viewport #top-banner h1{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 990px){
+    #viewport #top-menu #menu-regular li a:link, #viewport #top-menu #menu-regular li a:visited{
+        font-size: 14px;
+    }
+    #viewport #top-banner h1{
+        font-size: 20px;
+        display: block;
+        width: 35%;
+        margin: 0 auto;
+        right: 15%;
+        background-color: rgba(211, 214, 227, 1);
+        text-align: center;
+
+    }
+    #viewport #top-menu{
+        height: 100px;
+
+    }
+    #viewport #top-menu #menu-regular{
+        position: absolute;
+        top: 100px;
+        left: 15%;
+        width: 70%;
+        margin: 0 auto;
+        z-index: 999;
+        background-color: #d3d6e3;
+    }
+}
+@media only screen and (max-width: 768px){
+    #viewport #top-menu #menu-regular{
+        position: absolute;
+        top: -100px;
+    }
+    #viewport #top-menu #sandwish{
+        top: 10px;
+        right: 100px;
+    }
+    #viewport #top-menu #sandwish:hover{
+        height: 300px;
+        width: 150px;
+    }
+    #viewport #top-menu #sandwish:hover #img-sandwish{
+        transform: scale(1.2);
+        float: right;
+        margin-right: 4px;
+    }
+}
+@media only screen and (max-width: 480px){
+}
+@media only screen and (max-width: 360px){
+
+}
